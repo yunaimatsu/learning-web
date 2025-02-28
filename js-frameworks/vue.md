@@ -217,6 +217,7 @@ const store = new Vuex.Store({
 
 1. Vueインスタンスを生成する
 2. VueインスタンスをDOM要素にマウントする
+
 ## 2.3 Vueオブジェクト
 ここからはVue.jsのAPIや基本機能を紹介していきます。 script要素でVue.jsのファイルを読み込んだことで、グローバル変数Vue＊3が定義されます。 グローバル変数Vueは、複数の役割を持ったオブジェクトです。 役割の1つはコンストラクタ、もう1つはVue.jsのAPIを束ねる名前空間（モジュール）です＊4。 変数Vueは、Vue.jsの動作の根幹となる重要な変数です。実際にコードを書いて試していきましょう。
 このインスタンスをDOM要素にマウント（適用）することで、Vue.jsの機能がその要素内で使えるようになります。
@@ -232,6 +233,7 @@ var vm = new Vue({
   // ... 
 })
 ```
+
 ### 2.4 Mounting of Vue instance
 既存のDOM要素をVue.jsが生成するDOM要素で置き換えることです。このDOM要素はインスタンス生成時のオプションオブジェクトで与えたり、メソッドを呼び出して後から指定したりできます
 - インスタンス適用
@@ -268,7 +270,7 @@ var vm = new Vue({
 ```
 ## Vue.jsのAPIを束ねるnamespace(module)
 
-# II 環境構築Setup
+# II Setup
 ## 1.7 Vue.jsの初めの一歩
 ```html
 <!DOCTYPE html>
@@ -306,7 +308,7 @@ new Vue({
 ## 8.7 Frontend/Backend
 ## 8.8 環境構築の強化
 
-# III設計
+# III 設計
 ## 2.1 Vue.jsのUI構築する際の考え方
 DOM操作・jQueryは複雑。
 Vue.jsは、間に `status`を挟むことによってUI設計を容易にした。
@@ -315,22 +317,22 @@ Vue.jsは、間に `status`を挟むことによってUI設計を容易にした
 ## 2.10 ライフサイクル
 ## 2.12 
 
-# 3 Component
-## 3.1 What is component
+## 3 Component
+### 3.1 What is component
 - 全てはUIコンポーネントから構成される
 - 
 ## 3.2 Definition
 ## 3.3 Network b/n components
 ## 3.4 Design
 
-# 4 Vue Router
+## 4 Vue Router
 ## 4.1 
 ## 4.2
 ## 4.3 
 ## 4.4
 ## 4.5 
 
-# 5 高度な機能
+## 5 高度な機能
 1. animation
 2. transition -- wrapper, class, fade
 3. slot -- single, scope
@@ -338,7 +340,7 @@ Vue.jsは、間に `status`を挟むことによってUI設計を容易にした
 5. mixin -- 使いまわせる小さな機能 DRY(Don't repeat oyr)
 
 
-# 6 SFC(Single File Components)
+## 6 SFC(Single File Components)
 開発を簡単にするためにVueCLIを導入しよう！
 ```html
 <template>: HTML(Pug)
@@ -358,7 +360,7 @@ Vue.jsは、間に `status`を挟むことによってUI設計を容易にした
 
 
 
-# Design
+# IV Design
 ## 9.1 Component
 ### Atoms
 ### Molecules
@@ -374,7 +376,7 @@ Vue.jsは、間に `status`を挟むことによってUI設計を容易にした
 ### Route flow
 ### Route definition
 
-# Implementation
+# V Implementation
 例: ログイン、ボード、タスク詳細
 Debug
 Build
@@ -404,7 +406,7 @@ Error-handling
 ## 10.9 パフォーマンス
 
 
-# 歴史・類型
+# VI 歴史・類型
 
 ## 1.1 現代のWebフロントエンド開発の複雑化
 
