@@ -158,13 +158,13 @@
 - JSはブラウザの上でのみ動く
 - Node.jsはインタプリタの上で動く
 
-## 1.5 Vue.jsを支える技術
+## Vue.jsを支える技術(1.5)
 Component
 **Reactive System**
 状態の変化をVue.jsが検知（監視）して、自動的にDOM側に反映できるようにする仕組み
 **Rendering System**
 
-## 1.6 Ecosystem(Plugins)
+## Ecosystem(Plugins)(1.6)
 ```
 Official Plugins
 ```
@@ -299,9 +299,10 @@ new Vue({
   console.assert(typeof Vue !== 'undefined');
 </script>
 ```
-## 8.1 特徴
-## 8.2 アプリケーション
+(8.1 特徴)
+(8.2 アプリケーション)
 ## 8.3 環境構築
+
 ## 8.4 VueCLI
 ## 8.5 Build
 ## 8.6 Test Env
